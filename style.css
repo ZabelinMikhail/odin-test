@@ -1,0 +1,41 @@
+.top {
+    background-color: rgb(28, 109, 136);
+    height: 100px;
+    width: 100%;   
+    display: flex; /*без него не выровнять по центру дочерний элемент*/
+}
+
+.topmenu {  /*это же и контейнер для двух внутренних контейрнеров с кнопками HOME и MENU*/
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 80%;
+    height: 80%;
+    margin-left: 5%;
+    margin-right: 5%; 
+    margin-top: 8px;
+    margin-bottom: auto;
+    display: flex;
+}
+
+.top div { /* this selector selects all divs inside of .flex-container */
+    flex: 1; /*нахначает в какой пропорции делить контенеры (в данном случае 1к1*/
+    display: flex;
+}
+
+.toptext1 {
+    color: white;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+    margin: auto;
+    margin-left: 15px;
+}
+
+.toptext2 {
+    color: white;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+    margin: auto;
+    margin-right: 15px;
+}
