@@ -1,3 +1,5 @@
+/*Начало header*/
+
 .top {
     background-color: rgb(28, 109, 136);
     height: 100px;
@@ -38,4 +40,23 @@
     font-style: bold;
     margin: auto;
     margin-right: 15px;
+}
+
+/*Конец header*/
+
+.topblock {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.toptextimg {
+    position: absolute;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+    bottom: 0px;
+    left: auto;
+    font-size: 50px;
+    width: 100%;
 }
