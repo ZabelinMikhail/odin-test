@@ -20,7 +20,7 @@
 }
 
 .top div { /* this selector selects all divs inside of .flex-container */
-    flex: 1; /*нахначает в какой пропорции делить контенеры (в данном случае 1к1*/
+    flex: 1; /*назначает в какой пропорции делить контенеры (в данном случае 1к1*/
     display: flex;
 }
 
@@ -59,4 +59,37 @@
     left: auto;
     font-size: 50px;
     width: 100%;
+}
+
+/*Конец заставки*/
+
+.maincontainer {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    background-color: rgb(28, 109, 136);
+    color: white;
+    flex: 1 1 auto;
+    margin: 5px;  
+    text-align: center;
+}
+
+.flag {
+    width: 26px;
+    text-align: center;
+}
+
+.boximg {
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
