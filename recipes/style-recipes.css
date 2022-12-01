@@ -98,19 +98,17 @@ h2 {
     margin-right: 10%;
     flex-wrap: wrap;
     align-content: space-between;
+    gap: 5px;
+    margin-bottom: 5px;
 }
 
 .maincontainerflex1,
 .maincontainerflex2 {
     display: block;
-    flex: 1 1 0;
     padding: 5px;
     background-color: rgb(28, 109, 136);
     color: white;
-    flex-grow: 1;
-    margin: 5px;
-   
-    
+    flex: 1 1 0;
 }
 
 p,
