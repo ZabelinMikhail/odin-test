@@ -34,6 +34,7 @@
     font-style: bold;
     margin: auto;
     margin-left: 15px;
+    text-decoration: none;
 }
 
 .toptext2 {
@@ -43,6 +44,7 @@
     font-style: bold;
     margin: auto;
     margin-right: 15px;
+    text-decoration: none;
 }
 
 .toptext3 {
@@ -52,6 +54,7 @@
     font-style: bold;
     margin: auto;
     text-align: center;
+    text-decoration: none;
 }
 
 /*Конец header*/
