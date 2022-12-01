@@ -1,6 +1,7 @@
 /*Начало header*/
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px red;
 }
 
 .top {
@@ -56,85 +57,76 @@
 
 /*Конец header*/
 
-.topblock {
-    position: relative;   
-    /*
-    margin-left: 15%;
-    margin-right: 15%;
-    */
-}
 
-.topblockimg {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    background-image: linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0) 60%,
-      rgba(0, 0, 0, 0.8) 100%
-    );
-}
-
-.toptextimg {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+h1 {
+    font-size: 100px;
+    color: black;
     text-align: center;
-    color: white;
+    padding: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.intropic {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+h2 {
     font-size: 50px;
+    margin-bottom: 5px; 
+    margin-top: auto;
+}
+
+.maincontainer {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5px;
+    display: block;
+    background-color:  rgb(28, 109, 136);
+    color: white;
+    padding: 10px;
+}
+
+.maincontainerflex {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.maincontainerflex1,
+.maincontainerflex2 {
+    display: block;
+    flex: 1 1 0;
+    padding: 5px;
+    background-color: rgb(28, 109, 136);
+    color: white;
+    flex-grow: 1;
+    margin: 5px;
+   
     
 }
 
-/*.topblocktimg {
-    position: absolute;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
-    bottom: 0px;
-    left: auto;
-    font-size: 50px;
-    width: 100%;
-    /*текст внизу картинки с градиентом*/
-
-
-
-/*Конец заставки*/
-
-.maincontainer {
-    display: flex;
-    margin-left: 15%;
-    margin-right: 15%;
-    flex-direction: row;
-    align-items: stretch;
-    flex-wrap: wrap;
-    justify-content: space-between;
+p,
+li {
+    font-size: 20px;
 }
 
-.box {
-    background-color: rgb(28, 109, 136);
-    color: white;
-    flex: 1 1 auto;
-    margin: 5px;  
+.homebutton {
+    width: 150px;
+    height: 30px;
+    text-decoration: none;
+    color: black;
     text-align: center;
-}
+    line-height: 20px;
+    display: block;
+    margin: 20px auto;
+    font: normal 17px arial;
 
-.flag {
-    width: 26px;
-    text-align: center;
-}
-
-.boximg {
-    width: 300px;
-    border-radius: 50%;
-
-}
-
-.button {
-    width: 250px;
-    height: 50px;
-    font-size: large;
 }
